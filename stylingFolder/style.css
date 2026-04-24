@@ -388,3 +388,54 @@ footer {
     color: #333;
     line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hero-item {
+        flex: 1 1 100%;
+        max-width: 300px;
+    }
+
+    .hero-flower {
+        height: 220px;
+    }
+
+    .service-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 90%;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-top-right {
+        position: static;
+        text-align: center;
+        flex-direction: column;
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .dropdown {
+        position: static;
+        max-height: none;
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
